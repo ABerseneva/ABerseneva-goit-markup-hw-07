@@ -1,10 +1,10 @@
 .footer {
-  background-color: var(--background-color-footer);
+  background-color: $background-color-footer;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .logo-footer {
-  color: var(--color-white);
+  color: $color-white;
 
   font-family: "Raleway", serif;
   font-weight: 700;
@@ -17,10 +17,10 @@
   padding-bottom: 20px;
 }
 .fotter-item-adress {
-  color: var(--color-white);
+  color: $color-white;
 
   font-style: normal;
-  font-weight: var(--primary-font-weight);
+  font-weight: $primary-font-weight;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -43,9 +43,9 @@
   margin-bottom: 9px;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 }
 
@@ -83,13 +83,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--color-white);
+  fill: $color-white;
   background-color: rgba(255, 255, 255, 0.1);
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 }
 
@@ -115,11 +115,11 @@
   margin-right: 12px;
   &:focus,
   &:hover {
-    border: 1px solid #2196f3;
+    border: 1px solid $accent-color;
     border-radius: 4px;
     transition-property: border;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 }
 
@@ -130,7 +130,7 @@
   letter-spacing: 0.06em;
   color: #ffffff;
 
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;

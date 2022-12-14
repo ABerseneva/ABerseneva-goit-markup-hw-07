@@ -4,7 +4,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -31,10 +31,10 @@
   color: #afb1b8;
   &:hover,
   &:focus {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: $accent-color;
+    color: $accent-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
   }
 }
 
